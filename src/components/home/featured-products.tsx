@@ -34,8 +34,13 @@ const featuredProducts = [
 
 const FeaturedProducts = () => {
   const { addItem } = useCart();
-
-  const handleAddToCart = (product: any) => {
+  interface Product {
+    id: number;
+    name: string;
+    price: number;
+    image: string;
+  }
+  const handleAddToCart = (product: Product) => {
     addItem({
       id: product.id,
       name: product.name,
