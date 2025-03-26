@@ -3,13 +3,15 @@ import { getProductBySlug } from "@/lib/products";
 import { notFound } from "next/navigation";
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  }
+  }>;
 }
 
-export function generateMetadata({ params }: PageProps) {
-  const product = getProductBySlug(params.slug);
+// 生成元数据
+export async function generateMetadata({ params }: PageProps) {
+  const resolvedParams = await params; // 等待 params 解析
+  const product = await getProductBySlug(resolvedParams.slug);
 
   if (!product) {
     return {
@@ -24,8 +26,10 @@ export function generateMetadata({ params }: PageProps) {
   };
 }
 
-export default function ProductPage({ params }: PageProps) {
-  const product = getProductBySlug(params.slug);
+// 页面组件
+export default async function ProductPage({ params }: PageProps) {
+  const resolvedParams = await params; // 等待 params 解析
+  const product = await getProductBySlug(resolvedParams.slug);
 
   if (!product) {
     return notFound();
