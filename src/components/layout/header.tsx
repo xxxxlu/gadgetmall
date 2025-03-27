@@ -6,8 +6,8 @@ import { useState } from "react";
 import { useCart } from "@/context/cart-context";
 import { Button } from "@/components/ui/button";
 import { Search, Menu, X, User, ShoppingBag } from "lucide-react";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import Logo from "@/image/logo.png"
 
 const Header = () => {
   const { itemCount, subtotal } = useCart();
@@ -22,11 +22,11 @@ const Header = () => {
             <div className="logo">
               <Link href="/" className="flex items-center">
                 <Image
-                  src="https://ext.same-assets.com/729254218/1076746914.png"
+                  src={Logo}
                   alt="The TV Home"
-                  width={120}
-                  height={42}
-                  className="h-10 w-auto"
+                  width={80}
+                  height={30}
+                  className="h-5 w-auto"
                 />
               </Link>
             </div>

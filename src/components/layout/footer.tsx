@@ -20,18 +20,18 @@ const Footer = () => {
             <p className="text-base mb-8">inspireinnosmc@gmail.com</p>
 
             <h6 className="text-gray-500 uppercase text-sm mb-3">ACCEPTED PAYMENT METHODS</h6>
-            <div className="flex justify-center" style={{ height: '40px' }}>
+            <div className="flex justify-center" style={{ height: '60px' }}>
               <Image
                 src={frame}
                 alt="Payment Methods"
-                width={80}
-                height={20}
+                width={120}
+                height={50}
               />
               <Image
                 src={easypaisa}
                 alt="Payment Methods"
-                width={80}
-                height={20}
+                width={120}
+                height={50}
               />
             </div>
           </div>
