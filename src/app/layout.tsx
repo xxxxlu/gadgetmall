@@ -13,8 +13,11 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "The TV Home",
+  title: "GadGet Mall",
   description: "Everything You Need for Perfect Home Entertainment",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
