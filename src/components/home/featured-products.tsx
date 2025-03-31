@@ -12,23 +12,23 @@ const featuredProducts = [
   {
     id: 166,
     name: "TCL 65″ C655 QLED Pro TV – Local Dimming",
-    price: 329900,
+    price: 47900,
     image: "https://ext.same-assets.com/729254218/2306040691.jpeg",
     slug: "65-c655-qled-pro-tv-local-dimming",
   },
   {
     id: 131,
     name: "TCL 75″ V6C UHD Google TV",
-    price: 259990,
+    price: 46890,
     image: "https://ext.same-assets.com/729254218/4225088003.jpeg",
     slug: "75-v6c-uhd-google-tv",
   },
   {
-    id: 159,
-    name: "TCL 75″ C655 QLED Pro TV – Local Dimming",
-    price: 449900,
-    image: "https://ext.same-assets.com/729254218/2306040691.jpeg",
-    slug: "tcl-75-c655-qled-pro-tv-local-dimming",
+    id: 189,
+    name: "Samsung QN900C 65″ Neo QLED 8K TV",
+    price: 49900,
+    image: "https://m.media-amazon.com/images/I/81wCL-pYp+L._AC_SL1500_.jpg",
+    slug: "samsung-qn900c-65-neo-qled-8k-tv",
   },
 ];
 
