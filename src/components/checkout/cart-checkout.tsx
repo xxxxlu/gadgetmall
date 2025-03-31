@@ -9,7 +9,7 @@ import { useCart } from "@/context/cart-context";
 import { Button } from "@/components/ui/button";
 
 const CheckoutPage: React.FC = () => {
-    const { subtotal } = useCart();
+    const { subtotal, clearCart } = useCart();
 
     const shipping = subtotal > 0 ? 1500 : 0;
     const total = subtotal + shipping;
@@ -47,6 +47,8 @@ const CheckoutPage: React.FC = () => {
             alert('Your cart is empty. Please add some products before placing an order.');
             return;
         }
+
+        clearCart();
     };
 
     return (
