@@ -36,3 +36,12 @@ export default async function ProductPage({ params }: PageProps) {
     </div>
   );
 }
+
+// 添加 generateStaticParams 函数
+export async function generateStaticParams() {
+  // 从 products 数组中获取所有的 slug
+  const products = await import("@/lib/products").then(mod => mod.products);
+  return products.map((product) => ({
+    slug: product.slug,
+  }));
+}
