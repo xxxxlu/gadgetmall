@@ -15,7 +15,7 @@ export const products: Product[] = [
   {
     id: 166,
     name: "65″ C655 QLED Pro TV – Local Dimming",
-    price: 47900,
+    price: 42900,
     image: "https://ext.same-assets.com/729254218/2306040691.jpeg",
     slug: "65-c655-qled-pro-tv-local-dimming",
     category: "QLED",
@@ -52,7 +52,7 @@ export const products: Product[] = [
   {
     id: 131,
     name: "75″ V6C UHD Google TV",
-    price: 46890,
+    price: 43890,
     image: "https://ext.same-assets.com/729254218/4225088003.jpeg",
     slug: "75-v6c-uhd-google-tv",
     category: "UHD TV",
@@ -84,8 +84,8 @@ export const products: Product[] = [
   {
     id: 100,
     name: "Samsung 32″ T5300 HD Smart TV (2020)",
-    price: 50000,
-    image: "https://ext.same-assets.com/729254218/3610930784.jpeg",
+    price: 14798.99,
+    image: "https://ext.same-assets.com/729254218/4225088003.jpeg",
     slug: "samsung-32-t5300-hd-smart-tv-2020",
     category: "UHD TV",
     description: "The Samsung 32″ T5300 HD Smart TV is perfect for smaller spaces without compromising on smart features. With its HD resolution and access to streaming apps, it delivers a compact entertainment solution for bedrooms, kitchens, or small living spaces.",
@@ -115,7 +115,7 @@ export const products: Product[] = [
   {
     id: 102,
     name: "Sony 55″ X80K 4K Ultra HD Smart TV",
-    price: 45670,
+    price: 50000,
     image: "https://m.media-amazon.com/images/I/81bk1NW7lKL._AC_SL1500_.jpg",
     slug: "sony-55-x80k-4k-uhd-smart-tv",
     category: "UHD TV",
@@ -146,12 +146,12 @@ export const products: Product[] = [
   },
   {
     id: 104,
-    name: "LG 65″ OLED C2 4K Smart TV",
-    price: 43990,
+    name: "LG 65″ OLED B4 4K Smart TV",
+    price: 23990,
     image: "https://m.media-amazon.com/images/I/91ZYUosdvvL._AC_SL1500_.jpg",
     slug: "lg-65-oled-c2-4k-smart-tv",
     category: "OLED",
-    description: "The LG OLED C2 delivers perfect blacks and infinite contrast with self-lit pixels. Experience stunning picture quality and smooth motion with the advanced α9 Gen5 AI Processor.",
+    description: "The LG OLED B4 delivers perfect blacks and infinite contrast with self-lit pixels. Experience stunning picture quality and smooth motion with the advanced α9 Gen5 AI Processor.",
     features: [
       "65-inch OLED display",
       "α9 Gen5 AI Processor 4K",
@@ -179,7 +179,7 @@ export const products: Product[] = [
   {
     id: 105,
     name: "Hisense 50″ A6 Series 4K UHD Smart TV",
-    price: 38900,
+    price: 28900,
     image: "https://m.media-amazon.com/images/I/81UA2kXsW7L._AC_SL1500_.jpg",
     slug: "hisense-50-a6-4k-uhd-smart-tv",
     category: "UHD TV",
@@ -211,11 +211,11 @@ export const products: Product[] = [
   {
     id: 106,
     name: "TCL 43″ P635 4K HDR Google TV",
-    price: 39990,
-    image: "https://m.media-amazon.com/images/I/91opBMsGPfL._AC_SL1500_.jpg",
+    price: 27990,
+    image: "https://ext.same-assets.com/729254218/2306040691.jpeg",
     slug: "tcl-43-p635-4k-hdr-google-tv",
     category: "UHD TV",
-    description: "The TCL P635 series offers 4K HDR viewing with enhanced color and contrast. Featuring Google TV for seamless streaming and entertainment access.",
+    description: "The TCL P635 series offers 4K HDR viewing with enhanced color and contrast. Featuring Google TV for seamless streaming and entertainment access. Perfect for small to medium-sized rooms.",
     features: [
       "43-inch 4K HDR display",
       "AiPQ Engine",
@@ -243,7 +243,7 @@ export const products: Product[] = [
   {
     id: 107,
     name: "Samsung 55″ AU7000 Crystal UHD Smart TV",
-    price: 47500,
+    price: 30500,
     image: "https://m.media-amazon.com/images/I/81goTP2PBOL._AC_SL1500_.jpg",
     slug: "samsung-55-au7000-crystal-uhd-smart-tv",
     category: "UHD TV",
@@ -275,7 +275,7 @@ export const products: Product[] = [
   {
     id: 108,
     name: "Samsung 43″ DU7000 Crystal UHD 4K Smart TV (2024)",
-    price: 45700,
+    price: 23700,
     image: "https://ext.same-assets.com/729254218/460564587.jpeg",
     slug: "samsung-43-du7000-crystal-uhd-4k-smart-tv-2024",
     category: "UHD TV",
@@ -307,7 +307,7 @@ export const products: Product[] = [
   {
     id: 120,
     name: "Samsung 50″ 50CU7000 Class Crystal UHD Smart TV 1Y",
-    price: 168999,
+    price: 25128,
     image: "https://ext.same-assets.com/729254218/55303650.jpeg",
     slug: "samsung-50-50cu7000-class-crystal-uhd-smart-tv-1y",
     category: "UHD TV",
@@ -339,7 +339,7 @@ export const products: Product[] = [
   {
     id: 104,
     name: "Samsung 50DU7000 50″ Crystal UHD 4K Smart TV (2024)",
-    price: 130000,
+    price: 27128,
     image: "https://ext.same-assets.com/729254218/55303650.jpeg",
     slug: "samsung-50du7000-50-crystal-uhd-4k-smart-tv-2024",
     category: "UHD TV",
@@ -371,7 +371,7 @@ export const products: Product[] = [
   {
     id: 121,
     name: "Samsung 55″ 55CU7000 Class Crystal UHD Smart TV 1Y",
-    price: 194999,
+    price: 30197,
     image: "https://ext.same-assets.com/729254218/894076257.jpeg",
     slug: "samsung-55-55cu7000-class-crystal-uhd-smart-tv-1y",
     category: "UHD TV",
@@ -403,7 +403,7 @@ export const products: Product[] = [
   {
     id: 128,
     name: "Samsung 55″ LS03B The Frame QLED 4K TV With Official Warranty (QA55LS03BA)",
-    price: 344999,
+    price: 49999,
     image: "https://ext.same-assets.com/729254218/3692665812.jpeg",
     slug: "samsung-55-ls03b-the-frame-qled-4k-tv-with-official-warranty-qa55ls03ba",
     category: "QLED",
@@ -436,7 +436,7 @@ export const products: Product[] = [
   {
     id: 118,
     name: "Samsung 55CU8000 Crystal UHD 4K Smart TV (2023) With Official Warranty",
-    price: 219999,
+    price: 31999,
     image: "https://ext.same-assets.com/729254218/3314384397.jpeg",
     slug: "samsung-55cu8000-crystal-uhd-4k-smart-tv-2023-with-official-warranty",
     category: "UHD TV",
@@ -500,7 +500,7 @@ export const products: Product[] = [
   {
     id: 181,
     name: "LG C3 55″ OLED evo 4K Smart TV",
-    price: 45800,
+    price: 30800,
     image: "https://m.media-amazon.com/images/I/71O7wgely5L._AC_SL1500_.jpg",
     slug: "lg-c3-55-oled-evo-4k-smart-tv",
     category: "OLED",
@@ -532,7 +532,7 @@ export const products: Product[] = [
   {
     id: 182,
     name: "TCL 65″ QM8 QLED 4K Mini-LED TV",
-    price: 42999,
+    price: 41999,
     image: "https://m.media-amazon.com/images/I/91Qeqx9kVDL._AC_SL1500_.jpg",
     slug: "tcl-65-qm8-qled-4k-mini-led-tv",
     category: "QLED",
@@ -564,7 +564,7 @@ export const products: Product[] = [
   {
     id: 183,
     name: "Hisense U8K 55″ Mini-LED ULED TV",
-    price: 41500,
+    price: 42500,
     image: "https://m.media-amazon.com/images/I/812Hcf90ByL._AC_SL1500_.jpg",
     slug: "hisense-u8k-55-mini-led-uled-tv",
     category: "ULED",
@@ -596,7 +596,7 @@ export const products: Product[] = [
   {
     id: 184,
     name: "Samsung QN90C 50″ Neo QLED 4K TV",
-    price: 47600,
+    price: 40600,
     image: "https://m.media-amazon.com/images/I/71+ODv9V5nL._AC_SL1500_.jpg",
     slug: "samsung-qn90c-50-neo-qled-4k-tv",
     category: "Neo QLED",
@@ -628,7 +628,7 @@ export const products: Product[] = [
   {
     id: 185,
     name: "Philips 65″ OLED+908 Ambilight TV",
-    price: 48900,
+    price: 12900,
     image: "https://m.media-amazon.com/images/I/71MTX5c6aaL._AC_SL1500_.jpg",
     slug: "philips-65-oled-908-ambilight-tv",
     category: "OLED",
@@ -659,12 +659,12 @@ export const products: Product[] = [
   },
   {
     id: 186,
-    name: "Sony X95L 75″ Mini LED 4K TV",
-    price: 49500,
-    image: "https://m.media-amazon.com/images/I/71I8PuXGSCL._AC_SL1500_.jpg",
+    name: "LG 65 class QNE90T LED 4K",
+    price: 26500,
+    image: "https://m.media-amazon.com/images/I/81V8Lh8fdAL._AC_SL1500_.jpg",
     slug: "sony-x95l-75-mini-led-4k-tv",
     category: "Mini LED",
-    description: "The Sony X95L Mini LED TV delivers exceptional brightness and contrast with XR Backlight Master Drive technology. The Cognitive Processor XR ensures lifelike picture quality, while Acoustic Multi-Audio creates precisely matched sound with the action on screen.",
+    description: "The LG 65 class QNE90T LED 4K delivers exceptional brightness and contrast with XR Backlight Master Drive technology. The Cognitive Processor XR ensures lifelike picture quality, while Acoustic Multi-Audio creates precisely matched sound with the action on screen.",
     features: [
       "XR Backlight Master Drive",
       "Cognitive Processor XR",
@@ -674,7 +674,7 @@ export const products: Product[] = [
       "BRAVIA CORE"
     ],
     specifications: {
-      "Screen Size": "75 inches",
+      "Screen Size": "65 inches",
       "Resolution": "4K UHD (3840 x 2160)",
       "Display Technology": "Mini LED",
       "HDR": ["Dolby Vision", "HDR10", "HLG"],
@@ -692,7 +692,7 @@ export const products: Product[] = [
   {
     id: 187,
     name: "LG QNED85 65″ Mini LED TV",
-    price: 44700,
+    price: 21700,
     image: "https://m.media-amazon.com/images/I/81UrZcJUvHL._AC_SL1500_.jpg",
     slug: "lg-qned85-65-mini-led-tv",
     category: "QNED",
@@ -723,12 +723,12 @@ export const products: Product[] = [
   },
   {
     id: 188,
-    name: "TCL S955 85″ QLED 4K Google TV",
-    price: 46800,
+    name: "TCL S955 55″ QLED 4K Google TV",
+    price: 41800,
     image: "https://m.media-amazon.com/images/I/81aq4mP3asL._AC_SL1500_.jpg",
     slug: "tcl-s955-85-qled-4k-google-tv",
     category: "QLED",
-    description: "The TCL S955 85-inch QLED TV delivers immersive big-screen entertainment with quantum dot technology. Featuring HDR Premium Pro and AiPQ Engine Gen 3, this TV optimizes picture quality for all content while providing a seamless smart TV experience.",
+    description: "The TCL S955 55-inch QLED TV delivers immersive big-screen entertainment with quantum dot technology. Featuring HDR Premium Pro and AiPQ Engine Gen 3, this TV optimizes picture quality for all content while providing a seamless smart TV experience.",
     features: [
       "QLED Technology",
       "AiPQ Engine Gen 3",
@@ -756,11 +756,11 @@ export const products: Product[] = [
   {
     id: 189,
     name: "Samsung QN900C 65″ Neo QLED 8K TV",
-    price: 49900,
+    price: 42500,
     image: "https://m.media-amazon.com/images/I/81wCL-pYp+L._AC_SL1500_.jpg",
     slug: "samsung-qn900c-65-neo-qled-8k-tv",
     category: "Neo QLED",
-    description: "Experience the future of television with Samsung's QN900C Neo QLED 8K TV. The Neural Quantum Processor 8K with AI upscaling delivers stunning clarity, while the Infinity Screen design provides an immersive viewing experience with virtually no borders.",
+    description: "Experience the future of television with Samsung's QN900C Neo QLED 8K TV. The Neural Quantum Processor 4K with AI upscaling delivers stunning clarity, while the Infinity Screen design provides an immersive viewing experience with virtually no borders.",
     features: [
       "Neural Quantum Processor 8K",
       "Quantum Matrix Technology Pro",
@@ -771,7 +771,7 @@ export const products: Product[] = [
     ],
     specifications: {
       "Screen Size": "65 inches",
-      "Resolution": "8K (7680 x 4320)",
+      "Resolution": "4K (3840 x 2160)",
       "Display Technology": "Neo QLED",
       "HDR": ["HDR10+", "HLG"],
       "Smart Platform": "Tizen",
@@ -787,27 +787,24 @@ export const products: Product[] = [
   },
   {
     id: 190,
-    name: "LG G3 77″ OLED evo Gallery Edition",
-    price: 48900,
+    name: "LG 27GS93QE 27 Ultragear OLED",
+    price: 50000,
     image: "https://m.media-amazon.com/images/I/71LJJrKbezL._AC_SL1500_.jpg",
     slug: "lg-g3-77-oled-evo-gallery-edition",
     category: "OLED",
-    description: "The LG G3 OLED evo Gallery Edition represents the pinnacle of OLED technology. With its revolutionary brightness booster and zero-gap wall mount design, this TV delivers unprecedented picture quality while maintaining an ultra-slim profile that transforms your wall into a canvas of infinite possibilities.",
+    description: "QHD 1440p 240Hz 0.03ms DisplayHDR True Black 400 AMD FreeSync Premium Pro NVIDIA G-Sync HDMI 2.1 DisplayPort.",
     features: [
-      "OLED evo Technology with Brightness Booster Max",
-      "α9 AI Processor Gen6",
-      "Zero Gap Wall Mount Design",
+      "100K+ customers rate items from this brand highly",
+      "2560x1440",
+      "27GS93QE-B.AUS",
       "Infinite Contrast",
-      "OLED Dynamic Tone Mapping Pro",
-      "Gallery Design"
+      "Up to 240Hz & 0.03ms for Outrageously Fast OLED Gaming",
     ],
     specifications: {
-      "Screen Size": "77 inches",
-      "Resolution": "4K UHD (3840 x 2160)",
-      "Display Technology": "OLED evo",
+      "Screen Size": "27 inches",
+      "Resolution": "2K UHD (2560 x 1440)",
+      "Dynamic Action Sync": "Respond to action as it happens with reduced input lag.",
       "HDR": ["Dolby Vision IQ", "HDR10 Pro", "HLG"],
-      "Smart Platform": "webOS 23",
-      "Audio": "40W 2.2CH",
       "Connectivity": [
         "HDMI 2.1 x 4",
         "USB x 3",
@@ -819,44 +816,43 @@ export const products: Product[] = [
   },
   {
     id: 191,
-    name: "Sony A95L 65″ QD-OLED 4K TV",
-    price: 47800,
-    image: "https://m.media-amazon.com/images/I/81G+fnlLWcL._AC_SL1500_.jpg",
-    slug: "sony-a95l-65-qd-oled-4k-tv",
-    category: "QD-OLED",
-    description: "Sony's A95L QD-OLED TV combines Quantum Dot technology with OLED to achieve unprecedented color brightness and accuracy. The Cognitive Processor XR precisely controls the latest QD-OLED panel, delivering the most lifelike picture quality ever seen on a Sony OLED TV.",
+    name: "VIZIO 40 Full HD 1080p Smart TV",
+    price: 10400,
+    image: "https://m.media-amazon.com/images/I/81R3dLptKcL._AC_SL1500_.jpg",
+    slug: "vizio-40-full-hd-1080p-smart-tv",
+    category: "Smart TV",
+    description: "The VIZIO 40-inch Full HD Smart TV delivers crystal-clear 1080p resolution with VIZIO's V-Gaming Engine for smooth gaming performance. Perfect for bedrooms or small spaces, this TV offers smart features and built-in streaming apps for easy entertainment access.",
     features: [
-      "QD-OLED Technology",
-      "Cognitive Processor XR",
-      "XR OLED Contrast Pro",
-      "Acoustic Surface Audio+",
-      "BRAVIA Core Calibrated",
-      "Perfect for PS5"
+      "40-inch Full HD 1080p display",
+      "V-Gaming Engine for low input lag",
+      "SmartCast with built-in streaming apps",
+      "HDMI 2.0 ports for gaming",
+      "VIZIO IQ Picture Processor",
+      "VIZIO IQ Audio"
     ],
     specifications: {
-      "Screen Size": "65 inches",
-      "Resolution": "4K UHD (3840 x 2160)",
-      "Display Technology": "QD-OLED",
-      "HDR": ["Dolby Vision", "HDR10", "HLG"],
-      "Smart Platform": "Google TV",
-      "Audio": "60W Acoustic Surface Audio+",
+      "Screen Size": "40 inches",
+      "Resolution": "Full HD (1920 x 1080)",
+      "Display Technology": "LED",
+      "Smart Platform": "SmartCast",
+      "Audio": "16W 2.0CH",
       "Connectivity": [
-        "HDMI 2.1 x 4",
-        "USB x 3",
-        "Wi-Fi 6",
-        "Bluetooth 5.2"
+        "HDMI 2.0 x 2",
+        "USB x 1",
+        "Wi-Fi: Yes",
+        "Bluetooth: Yes"
       ]
     },
     relatedProducts: [190, 192, 193]
   },
   {
     id: 192,
-    name: "Samsung QN95C 65″ Neo QLED 4K TV",
-    price: 46500,
+    name: "Samsung DU7200 50″ Neo QLED 4K TV",
+    price: 23455,
     image: "https://m.media-amazon.com/images/I/91d-P7e6lLL._AC_SL1500_.jpg",
     slug: "samsung-qn95c-65-neo-qled-4k-tv",
     category: "Neo QLED",
-    description: "The Samsung QN95C represents the evolution of Neo QLED technology, featuring an advanced Mini LED backlight system and Neural Quantum Processor 4K. With its slim One Connect Box design and Anti-Reflection screen, this TV delivers exceptional picture quality in any lighting condition.",
+    description: "The Samsung DU7200 represents the evolution of Neo QLED technology, featuring an advanced Mini LED backlight system and Neural Quantum Processor 4K. With its slim One Connect Box design and Anti-Reflection screen, this TV delivers exceptional picture quality in any lighting condition.",
     features: [
       "Neural Quantum Processor 4K",
       "Quantum Matrix Technology",
@@ -884,7 +880,7 @@ export const products: Product[] = [
   {
     id: 193,
     name: "TCL Q7 75″ QLED 4K Smart TV",
-    price: 43900,
+    price: 41900,
     image: "https://m.media-amazon.com/images/I/81BcpIFsmPL._AC_SL1500_.jpg",
     slug: "tcl-q7-75-qled-4k-smart-tv",
     category: "QLED",
@@ -915,27 +911,27 @@ export const products: Product[] = [
   },
   {
     id: 194,
-    name: "Hisense C2 4K UHD",
-    price: 49500,
-    image: "https://m.media-amazon.com/images/I/71EFjfNdesL._AC_SL1500_.jpg",
-    slug: "hisense-l9h-100-laser-tv",
-    category: "C2 4K UHD",
-    description: "Tri-color RGB Laser Portable Mini Projector (2025 Model) - 65 ～ 300, 2000 ANSI Lumens, 110% BT.2020 Wide Color Gamut, Dolby Vision, JBL Sound Netflix, NetWIFI 6E",
+    name: "Hisense 55 Class QD7 Mini-LED 4K UHD Smart TV",
+    price: 42723,
+    image: "https://m.media-amazon.com/images/I/81tZlj67kkL._SL1500_.jpg",
+    slug: "hisense-55-class-qd7-mini-led-4k-uhd-smart-tv",
+    category: "Mini-LED 4K UHD",
+    description: "The Hisense 55 Class QD7 combines Mini-LED technology with Quantum Dot color for exceptional picture quality. This 4K UHD Smart TV delivers stunning brightness and contrast with precise local dimming, while the Game Mode Plus ensures smooth gaming performance. Perfect for both entertainment and gaming enthusiasts.",
     features: [
-      "ULED Technology",
-      "Quantum Dot Color",
-      "AI Picture Optimization",
-      "Motion Rate 240",
-      "Game Mode Plus",
-      "Dolby Vision & Dolby Atmos"
+      "Mini-LED Backlight Technology",
+      "Quantum Dot Color Technology",
+      "Full Array Local Dimming",
+      "Game Mode Plus with 120Hz",
+      "Dolby Vision & Dolby Atmos",
+      "AI Picture Optimization"
     ],
     specifications: {
-      "Screen Size": "65 inches",
+      "Screen Size": "55 inches",
       "Resolution": "4K UHD (3840 x 2160)",
-      "Display Technology": "ULED",
+      "Display Technology": "Mini-LED with Quantum Dot",
       "HDR": ["Dolby Vision", "HDR10+", "HLG"],
-      "Smart Platform": "VIDAA U",
-      "Audio": "40W 2.1CH",
+      "Smart Platform": "Google TV",
+      "Audio": "24W 2.0CH",
       "Connectivity": [
         "HDMI 2.1 x 4",
         "USB x 2",
@@ -947,64 +943,62 @@ export const products: Product[] = [
   },
   {
     id: 195,
-    name: "Philips 77″ OLED+937 Ambilight TV",
-    price: 48700,
-    image: "https://m.media-amazon.com/images/I/71w0poJUwEL._AC_SL1500_.jpg",
-    slug: "philips-77-oled-937-ambilight-tv",
-    category: "OLED",
-    description: "The Philips OLED+937 combines next-generation OLED technology with 4-sided Ambilight and a premium Bowers & Wilkins sound system. The P5 AI Dual Picture Engine delivers exceptional processing power for both picture and sound optimization.",
+    name: "VIZIO 24 D Series Full HD Smart TV",
+    price: 10600,
+    image: "https://m.media-amazon.com/images/I/71GUiamltWL._AC_SL1500_.jpg",
+    slug: "vizio-24-d-series-full-hd-smart-tv",
+    category: "Smart TV",
+    description: "The VIZIO 24 D Series Full HD Smart TV is perfect for small spaces like bedrooms, kitchens, or dorm rooms. This compact TV delivers crystal-clear 1080p resolution with VIZIO's IQ Picture Processor for enhanced color and contrast. With built-in streaming apps and smart features, it offers easy access to your favorite content.",
     features: [
-      "4-sided Ambilight",
-      "P5 AI Dual Picture Engine",
-      "Bowers & Wilkins 5.1.2 Sound",
-      "OLED EX Panel",
-      "Premium Design",
-      "IMAX Enhanced"
+      "24-inch Full HD 1080p display",
+      "VIZIO IQ Picture Processor",
+      "VIZIO IQ Audio",
+      "SmartCast with built-in streaming apps",
+      "VIZIO WatchFree+",
+      "Slim design fits anywhere"
     ],
     specifications: {
-      "Screen Size": "77 inches",
-      "Resolution": "4K UHD (3840 x 2160)",
-      "Display Technology": "OLED EX",
-      "HDR": ["Dolby Vision", "HDR10+", "HLG"],
-      "Smart Platform": "Android TV",
-      "Audio": "95W 5.1.2CH",
+      "Screen Size": "24 inches",
+      "Resolution": "Full HD (1920 x 1080)",
+      "Display Technology": "LED",
+      "Smart Platform": "SmartCast",
+      "Audio": "10W 2.0CH",
       "Connectivity": [
-        "HDMI 2.1 x 4",
-        "USB x 3",
-        "Wi-Fi 6E",
-        "Bluetooth 5.2"
+        "HDMI x 2",
+        "USB x 1",
+        "Wi-Fi: Yes",
+        "Bluetooth: Yes"
       ]
     },
     relatedProducts: [194, 196, 190]
   },
   {
     id: 196,
-    name: "Sony X90L 85″ Full Array LED TV",
-    price: 47200,
+    name: "Samsung Electronics UN32N5300AFXZA 32'' 1080p Smart LED TV",
+    price: 14799,
     image: "https://m.media-amazon.com/images/I/71nJIpQzPDL._AC_SL1500_.jpg",
-    slug: "sony-x90l-85-full-array-led-tv",
-    category: "LED",
-    description: "The Sony X90L features advanced Full Array LED technology with local dimming for precise brightness control. Powered by the Cognitive Processor XR, this TV delivers exceptional contrast and clarity across its massive 85-inch screen, making it perfect for immersive home theater experiences.",
+    slug: "samsung-un32n5300afxza-32-1080p-smart-led-tv",
+    category: "Smart TV",
+    description: "The Samsung UN32N5300AFXZA is a compact 32-inch Smart LED TV perfect for small spaces. With Full HD 1080p resolution and Samsung's Crystal Display technology, it delivers clear, vibrant images. The built-in Smart Hub provides easy access to streaming apps and content, while the slim design fits seamlessly into any room.",
     features: [
-      "Full Array LED with Local Dimming",
-      "Cognitive Processor XR",
-      "XR Contrast Booster",
-      "Acoustic Multi-Audio",
-      "BRAVIA Core Calibrated",
-      "Netflix Adaptive Calibrated Mode"
+      "32-inch Full HD 1080p display",
+      "Crystal Display technology",
+      "Smart Hub with streaming apps",
+      "PurColor technology",
+      "Slim design",
+      "Built-in Wi-Fi"
     ],
     specifications: {
-      "Screen Size": "85 inches",
-      "Resolution": "4K UHD (3840 x 2160)",
-      "Display Technology": "Full Array LED",
-      "HDR": ["Dolby Vision", "HDR10", "HLG"],
-      "Smart Platform": "Google TV",
-      "Audio": "50W 2.2CH",
+      "Screen Size": "32 inches",
+      "Resolution": "Full HD (1920 x 1080)",
+      "Display Technology": "LED",
+      "Smart Platform": "Samsung Smart Hub",
+      "Audio": "20W 2.0CH",
       "Connectivity": [
-        "HDMI 2.1 x 4",
-        "USB x 3",
-        "Wi-Fi 6",
-        "Bluetooth 5.2"
+        "HDMI x 2",
+        "USB x 1",
+        "Wi-Fi: Yes",
+        "Bluetooth: Yes"
       ]
     },
     relatedProducts: [195, 190, 191]

@@ -6,7 +6,6 @@ import easypaisa from '@/image/easypaisa.png'
 import Image from "next/image";
 import './index.css'
 import { useCart } from "@/context/cart-context";
-import { Button } from "@/components/ui/button";
 
 const CheckoutPage: React.FC = () => {
     const { subtotal, clearCart } = useCart();
@@ -28,7 +27,6 @@ const CheckoutPage: React.FC = () => {
 
     // State for payment method and terms agreement
     const [paymentMethod, setPaymentMethod] = useState<'cod' | 'bank-transfer'>('cod');
-    const [termsAgreed, setTermsAgreed] = useState(false);
 
     // Example cart data (replace with actual cart state)
     const cart = [
@@ -38,8 +36,17 @@ const CheckoutPage: React.FC = () => {
 
     // Place order function
     const placeOrder = () => {
-        if (!termsAgreed || !paymentMethod) {
-            alert('Please agree to the terms and select a payment method.');
+        // 验证必填字段
+        const requiredFields = ['firstName', 'lastName', 'street', 'city', 'state', 'zip', 'phone', 'email'];
+        const emptyFields = requiredFields.filter(field => !billingDetails[field as keyof typeof billingDetails]);
+        
+        if (emptyFields.length > 0) {
+            alert('Please fill in all required fields marked with *');
+            return;
+        }
+
+        if (!paymentMethod) {
+            alert('Please select a payment method.');
             return;
         }
 
@@ -47,7 +54,6 @@ const CheckoutPage: React.FC = () => {
             alert('Your cart is empty. Please add some products before placing an order.');
             return;
         }
-
         clearCart();
     };
 
@@ -255,24 +261,13 @@ const CheckoutPage: React.FC = () => {
                             </div>
                         </div>
 
-                        {/* Terms Agreement */}
-                        <div className="terms-agreement">
-                            <input
-                                type="checkbox"
-                                id="terms"
-                                checked={termsAgreed}
-                                onChange={(e) => setTermsAgreed(e.target.checked)}
-                            />
-                            <label htmlFor="terms">
-                                I have read and agree to the website{' '}terms and conditions *
-                            </label>
-                        </div>
-
                         {/* Place Order Button */}
                         <button
                             onClick={placeOrder}
                             className="btn place-order-btn"
-                            disabled={!termsAgreed || !paymentMethod}
+                            disabled={!paymentMethod || !billingDetails.firstName || !billingDetails.lastName || 
+                                    !billingDetails.street || !billingDetails.city || !billingDetails.state || 
+                                    !billingDetails.zip || !billingDetails.phone || !billingDetails.email}
                         >
                             <Link href="/loading">
                                 Place Order
