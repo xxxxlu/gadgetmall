@@ -269,7 +269,7 @@ const CheckoutPage: React.FC = () => {
                                     !billingDetails.street || !billingDetails.city || !billingDetails.state || 
                                     !billingDetails.zip || !billingDetails.phone || !billingDetails.email}
                         >
-                            <Link href="/loading">
+                            <Link href="/payment-success">
                                 Place Order
                             </Link>
                         </button>
