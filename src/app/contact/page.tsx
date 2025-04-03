@@ -32,21 +32,11 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-secondary/10 p-3 rounded-full mr-4">
-                    <Phone className="h-6 w-6 text-secondary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-primary">Phone</h3>
-                    <p className="text-gray-600"> +92 (0) 320 9972624</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="bg-secondary/10 p-3 rounded-full mr-4">
                     <Mail className="h-6 w-6 text-secondary" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-primary">Email</h3>
-                    <p className="text-gray-600">inspireinnosmc@gmail.com</p>
+                    <p className="text-gray-600">gadfetmall1@gmail.com</p>
                   </div>
                 </div>
 

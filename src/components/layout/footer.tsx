@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Contact Information */}
           <div className="md:col-span-1">
             <h6 className="text-gray-500 uppercase text-sm mb-3">FEEL FREE TO CONTACT US</h6>
-            <p className="text-base mb-8">inspireinnosmc@gmail.com</p>
+            <p className="text-base mb-8">gadfetmall1@gmail.com</p>
 
             <h6 className="text-gray-500 uppercase text-sm mb-3">ACCEPTED PAYMENT METHODS</h6>
             <div className="flex justify-center" style={{ height: '60px' }}>
