@@ -67,7 +67,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="text-center">
             <div className="copyright text-sm text-gray-600">
-              Copyright © 2025 | Powered by Data Network Solutions
+              Copyright © 2025 | Powered by Data Network Solutions (SMC-Private) Limited
             </div>
           </div>
         </div>
